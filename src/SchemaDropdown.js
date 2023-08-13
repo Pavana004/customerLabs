@@ -62,6 +62,7 @@ const SchemaDropdown = ({ isOpen, onClose }) => {
             schema: res
 
         };
+        alert(JSON.stringify(segmentData));
         console.log(segmentData);
 
     }
